@@ -1,0 +1,32 @@
+:root{
+    --picture-size: 40rem;
+    --pos-x: 10px;
+    --pos-y: 10px;
+    background-color: black;
+}
+.circle{
+    position: absolute;
+    width: 560px;
+    height: 560px;
+    border-radius: 360px;
+}
+.background{
+    background: radial-gradient(50% 50% at 50% 50%, #780303 10.23%, rgba(0, 0, 0, 0.404) 90%,rgba(0, 0, 0, 0) 100%);
+
+}
+.text{
+    line-break: normal;
+    overflow: hidden;
+    word-break: break-all;
+
+}
+.cursor{
+    width: 200px;
+    height: 200px;
+    margin: 190px 0px 0px 190px;
+    background: radial-gradient(50% 50% at 50% 50%, #780303 10.23%, rgba(0, 0, 0, 0.404) 80%,rgba(0, 0, 0, 0) 100%);
+    mix-blend-mode: difference;
+}
+.overlay{
+    cursor: none;
+}
